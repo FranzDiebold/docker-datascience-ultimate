@@ -1,0 +1,5 @@
+{
+  "@jupyterlab/apputils-extension:themes": {
+    "theme": "@dunovank/jupyterlab_darkside_ui"
+  }
+}

@@ -1,5 +1,7 @@
 # docker-jupyter-spark
 
+[![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE)
+
 A customized [Jupyter](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image.
 
 ## What's in?

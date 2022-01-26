@@ -5,6 +5,8 @@
 
 A customized [Jupyter](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image.
 
+![docker-jupyter-spark Screenshot](images/docker-jupyter-spark_screenshot.png)
+
 ## What's in?
 
 - Everything from [jupyter/all-spark-notebook](https://hub.docker.com/r/jupyter/all-spark-notebook)

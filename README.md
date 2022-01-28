@@ -39,5 +39,5 @@ alias jupyter='docker run --rm -p 8888:8888 -p 4040:4040 -v "${PWD}":/home/jovya
 ## Build image locally
 
 ```bash
-docker build -t franzdiebold/jupyter-spark:latest .
+make build
 ```

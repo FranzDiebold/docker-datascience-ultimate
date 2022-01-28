@@ -16,6 +16,7 @@ A customized [Jupyter](https://jupyter.org/) [Spark](https://spark.apache.org/do
 - Theme: [Jupyterlab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 - More packages:
   - [Plotly](https://plotly.com/python/)
+  - [Git](https://git-scm.com/) support
 
 ## How to use?
 

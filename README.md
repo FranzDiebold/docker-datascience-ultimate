@@ -24,7 +24,7 @@ A customized [Jupyter](https://jupyter.org/) [Spark](https://spark.apache.org/do
 docker run -p 8888:8888 -p 4040:4040 franzdiebold/jupyter-spark
 ```
 
-The following routes will be available:
+The following web apps will be available:
 
 - JupyterLab: [http://localhost:8888/lab/](http://localhost:8888/lab/)
 - Spark Web UI: [http://localhost:4040/](http://localhost:4040/)

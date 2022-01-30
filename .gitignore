@@ -1,6 +1,20 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/macos,linux,visualstudiocode
-# Edit at https://www.toptal.com/developers/gitignore?templates=macos,linux,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/linux,macos,visualstudiocode,jupyternotebooks
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,macos,visualstudiocode,jupyternotebooks
+
+### JupyterNotebooks ###
+# gitignore template for Jupyter Notebooks
+# website: http://jupyter.org/
+
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# Remove previous ipynb_checkpoints
+#   git rm -r .ipynb_checkpoints/
 
 ### Linux ###
 *~
@@ -67,4 +81,4 @@ Temporary Items
 
 # Support for Project snippet scope
 
-# End of https://www.toptal.com/developers/gitignore/api/macos,linux,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/linux,macos,visualstudiocode,jupyternotebooks

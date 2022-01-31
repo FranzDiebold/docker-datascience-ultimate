@@ -6,7 +6,7 @@
 
 A customized [Jupyter](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image.
 
-<img src="images/docker-jupyter-spark_screenshot.png" alt="docker-jupyter-spark Screenshot" width="100%"/>
+![docker-jupyter-spark Screenshot](images/docker-jupyter-spark_screenshot.png)
 
 ## What's in?
 

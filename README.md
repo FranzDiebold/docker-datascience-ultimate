@@ -11,8 +11,10 @@ A customized [Jupyter](https://jupyter.org/) [Spark](https://spark.apache.org/do
 
 - Everything from [jupyter/all-spark-notebook](https://hub.docker.com/r/jupyter/all-spark-notebook)
   - [Python 3.9](https://www.python.org/)
-  - [Spark](https://spark.apache.org/docs/latest/api/python/)
-  - [Jupyter](https://jupyter.org/)
+  - [Scala 2.12](https://www.scala-lang.org/)
+  - [R 4.1](https://www.r-project.org/)
+  - [Spark 3.2](https://spark.apache.org/docs/latest/api/python/)
+  - [JupyterLab v3.2](https://jupyter.org/)
 - Theme: [Jupyterlab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 - More packages:
   - [Plotly](https://plotly.com/python/)

@@ -1,23 +1,24 @@
 # docker-jupyter-spark
 
 [![Docker Hub: franzdiebold/jupyter-spark](https://img.shields.io/badge/Docker%20Hub-franzdiebold%2Fjupyter--spark-2496ed)](https://hub.docker.com/r/franzdiebold/jupyter-spark)
-[![license: MIT](https://img.shields.io/badge/license-MIT-brightgreen.svg)](./LICENSE)
+[![GitHub: FranzDiebold/docker-jupyter-spark](https://img.shields.io/badge/GitHub-FranzDiebold%2Fdocker--jupyter--spark-0969da)](https://github.com/FranzDiebold/docker-jupyter-spark)
+[![GitHub](https://img.shields.io/github/license/FranzDiebold/docker-jupyter-spark)](./LICENSE)
 
 A customized [Jupyter](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image.
 
-![docker-jupyter-spark Screenshot](images/docker-jupyter-spark_screenshot.png)
+<img src="images/docker-jupyter-spark_screenshot.png" alt="docker-jupyter-spark Screenshot" width="100%"/>
 
 ## What's in?
 
 - Everything from [jupyter/all-spark-notebook](https://hub.docker.com/r/jupyter/all-spark-notebook)
-  - [Python 3.9](https://www.python.org/)
-  - [Scala 2.12](https://www.scala-lang.org/)
-  - [R 4.1](https://www.r-project.org/)
-  - [Spark 3.2](https://spark.apache.org/docs/latest/api/python/)
+  - [Python v3.9](https://www.python.org/)
+  - [Scala v2.12](https://www.scala-lang.org/) (via `spylon-kernel`)
+  - [R v4.1](https://www.r-project.org/)
+  - [Spark v3.2](https://spark.apache.org/docs/latest/api/python/)
   - [JupyterLab v3.2](https://jupyter.org/)
 - Theme: [Jupyterlab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 - More packages:
-  - [Plotly](https://plotly.com/python/)
+  - [Plotly v5.5](https://plotly.com/python/)
   - [Git](https://git-scm.com/) support
 
 ## How to use?

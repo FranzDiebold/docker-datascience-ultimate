@@ -4,7 +4,7 @@
 [![GitHub: FranzDiebold/docker-jupyter-spark](https://img.shields.io/badge/GitHub-FranzDiebold%2Fdocker--jupyter--spark-0969da)](https://github.com/FranzDiebold/docker-jupyter-spark)
 [![GitHub](https://img.shields.io/github/license/FranzDiebold/docker-jupyter-spark)](./LICENSE)
 
-A customized [Jupyter](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image.
+A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image.
 
 ![docker-jupyter-spark Screenshot](images/docker-jupyter-spark_screenshot.png)
 
@@ -16,7 +16,7 @@ A customized [Jupyter](https://jupyter.org/) [Spark](https://spark.apache.org/do
   - [R v4.1](https://www.r-project.org/)
   - [Spark v3.2](https://spark.apache.org/docs/latest/api/python/)
   - [JupyterLab v3.2](https://jupyter.org/)
-- Theme: [Jupyterlab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
+- Theme: [JupyterLab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 - More packages:
   - [Plotly v5.5](https://plotly.com/python/)
   - [Git](https://git-scm.com/) support

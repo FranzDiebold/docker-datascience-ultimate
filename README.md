@@ -16,9 +16,12 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [R v4.1](https://www.r-project.org/)
   - [Spark v3.2](https://spark.apache.org/docs/latest/api/python/)
   - [JupyterLab v3.2](https://jupyter.org/)
+  - [Pandas v1.4](https://pandas.pydata.org/)
+  - [Numpy v1.21](https://numpy.org/)
 - Theme: [JupyterLab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 - More packages:
   - [Plotly v5.5](https://plotly.com/python/)
+  - [Polars v0.12](https://www.pola.rs/)
   - [Git](https://git-scm.com/) support
 
 ## How to use?

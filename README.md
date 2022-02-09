@@ -1,12 +1,14 @@
-# docker-jupyter-spark
+# Data Science Ultimate Docker image
 
-[![Docker Hub: franzdiebold/jupyter-spark](https://img.shields.io/badge/Docker%20Hub-franzdiebold%2Fjupyter--spark-2496ed)](https://hub.docker.com/r/franzdiebold/jupyter-spark)
-[![GitHub: FranzDiebold/docker-jupyter-spark](https://img.shields.io/badge/GitHub-FranzDiebold%2Fdocker--jupyter--spark-0969da)](https://github.com/FranzDiebold/docker-jupyter-spark)
-[![GitHub](https://img.shields.io/github/license/FranzDiebold/docker-jupyter-spark)](./LICENSE)
+[![Docker Hub: franzdiebold/datascience-ultimate](https://img.shields.io/badge/Docker%20Hub-franzdiebold%2Fdatascience--ultimate-2496ed)](https://hub.docker.com/r/franzdiebold/datascience-ultimate)
+[![GitHub: FranzDiebold/docker-datascience-ultimate](https://img.shields.io/badge/GitHub-FranzDiebold%2Fdocker--datascience--ultimate-0969da)](https://github.com/FranzDiebold/docker-datascience-ultimate)
+[![GitHub](https://img.shields.io/github/license/FranzDiebold/docker-datascience-ultimate)](./LICENSE)
+
+> [This docker image] is all you need :wink:
 
 A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image.
 
-![docker-jupyter-spark Screenshot](images/docker-jupyter-spark_screenshot.png)
+![docker-datascience-ultimate Screenshot](images/datascience-ultimate_screenshot.png)
 
 ## What's in?
 
@@ -18,16 +20,16 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [JupyterLab v3.2](https://jupyter.org/)
   - [Pandas v1.4](https://pandas.pydata.org/)
   - [Numpy v1.21](https://numpy.org/)
-- Theme: [JupyterLab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 - More packages:
   - [Plotly v5.5](https://plotly.com/python/)
   - [Polars v0.12](https://www.pola.rs/)
   - [Git](https://git-scm.com/) support
+- Theme: [JupyterLab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 
 ## How to use?
 
 ```bash
-docker run -p 8888:8888 -p 4040:4040 franzdiebold/jupyter-spark
+docker run -p 8888:8888 -p 4040:4040 franzdiebold/datascience-ultimate
 ```
 
 The following web apps will be available:
@@ -40,7 +42,7 @@ The following web apps will be available:
 In your `.zshrc` / `.bashrc` file add:
 
 ```bashrc
-alias jupyter='docker run --rm -p 8888:8888 -p 4040:4040 -v "${PWD}":/home/jovyan franzdiebold/jupyter-spark:latest'
+alias jupyter='docker run --rm -p 8888:8888 -p 4040:4040 -v "${PWD}":/home/jovyan franzdiebold/datascience-ultimate:latest'
 ```
 
 ## Build image locally

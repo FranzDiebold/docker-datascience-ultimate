@@ -4,4 +4,4 @@ help:  ## Show this help.
 
 .PHONY: build
 build:  ## Build docker image.
-	docker build -t franzdiebold/jupyter-spark:latest .
+	docker build -t franzdiebold/datascience-ultimate:latest .

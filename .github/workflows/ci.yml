@@ -24,4 +24,4 @@ jobs:
         with:
           platforms: linux/amd64
           push: true
-          tags: franzdiebold/jupyter-spark:latest
+          tags: franzdiebold/datascience-ultimate:latest

@@ -24,5 +24,14 @@
   },
   "@jupyterlab/apputils-extension:themes": {
     "theme": "@dunovank/jupyterlab_darkside_ui"
+  },
+  "@ryantam626/jupyterlab_code_formatter:settings": {
+    "formatOnSave": true,
+    "preferences": {
+      "default_formatter": {
+        "python": ["isort", "black"],
+        "r": "formatR"
+      }
+    }
   }
 }

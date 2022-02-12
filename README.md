@@ -28,6 +28,7 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [Polars v0.12](https://www.pola.rs/)
   - [Git](https://git-scm.com/) support
 - Theme: [JupyterLab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
+- Code formatting: [Jupyterlab Code Formatter](https://jupyterlab-code-formatter.readthedocs.io/) using [Black code formatter](https://black.readthedocs.io/en/stable/)
 
 ## How to use?
 

@@ -20,6 +20,9 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [JupyterLab v3.2](https://jupyter.org/)
   - [Pandas v1.4](https://pandas.pydata.org/)
   - [Numpy v1.21](https://numpy.org/)
+  - [scikit-learn v1.0.2](https://scikit-learn.org/)
+  - [SciPy v1.7.3](https://scipy.org/)
+  - [Seaborn v0.11.2](https://seaborn.pydata.org/)
 - More packages:
   - [Plotly v5.5](https://plotly.com/python/)
   - [Polars v0.12](https://www.pola.rs/)

@@ -6,7 +6,7 @@
 
 > [This docker image] is all you need :wink:
 
-A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image.
+A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image packed with everything you need.
 
 ![docker-datascience-ultimate Screenshot](images/datascience-ultimate_screenshot.png)
 

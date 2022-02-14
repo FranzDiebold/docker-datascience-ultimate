@@ -3,8 +3,8 @@ jupyterlab-darkside-ui==0.2.0
 
 # Packages
 jupyterlab-git==0.34.2
-plotly==5.5.0
-polars==0.12.22
+plotly==5.6.0
+polars==0.13.1
 jupyterlab-code-formatter==1.4.10
 black[jupyter]==22.1.0
 isort==5.10.1

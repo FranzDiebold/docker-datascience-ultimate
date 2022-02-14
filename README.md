@@ -24,8 +24,8 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [SciPy v1.7.3](https://scipy.org/)
   - [Seaborn v0.11.2](https://seaborn.pydata.org/)
 - More packages:
-  - [Plotly v5.5](https://plotly.com/python/)
-  - [Polars v0.12](https://www.pola.rs/)
+  - [Plotly v5.6](https://plotly.com/python/)
+  - [Polars v0.13](https://www.pola.rs/)
   - [Git](https://git-scm.com/) support
 - Theme: [JupyterLab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 - Code formatting: [Jupyterlab Code Formatter](https://jupyterlab-code-formatter.readthedocs.io/) using [Black code formatter](https://black.readthedocs.io/en/stable/)

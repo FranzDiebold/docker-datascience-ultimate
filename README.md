@@ -24,6 +24,7 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [SciPy v1.7.3](https://scipy.org/)
   - [Seaborn v0.11.2](https://seaborn.pydata.org/)
 - More packages:
+  - [XGBoost v1.5](https://xgboost.ai/)
   - [Plotly v5.6](https://plotly.com/python/)
   - [Polars v0.13](https://www.pola.rs/)
   - [Git](https://git-scm.com/) support

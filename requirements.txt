@@ -5,6 +5,7 @@ jupyterlab-darkside-ui==0.2.0
 jupyterlab-git==0.34.2
 plotly==5.6.0
 polars==0.13.6
+xgboost==1.5.2
 jupyterlab-code-formatter==1.4.10
 black[jupyter]==22.1.0
 isort==5.10.1

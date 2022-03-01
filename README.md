@@ -27,6 +27,7 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [XGBoost v1.5](https://xgboost.ai/)
   - [Plotly v5.6](https://plotly.com/python/)
   - [Polars v0.13](https://www.pola.rs/)
+  - [Graphviz v0.19](https://github.com/xflr6/graphviz)
   - [Git](https://git-scm.com/) support
 - Theme: [JupyterLab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 - Code formatting: [Jupyterlab Code Formatter](https://jupyterlab-code-formatter.readthedocs.io/) using [Black code formatter](https://black.readthedocs.io/en/stable/)

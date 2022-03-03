@@ -14,6 +14,6 @@ RUN mamba install --quiet --yes \
     fix-permissions "/home/${NB_USER}"
 
 COPY requirements.txt .
-RUN pip install -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 COPY overrides.json /opt/conda/share/jupyter/lab/settings/overrides.json

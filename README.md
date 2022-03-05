@@ -51,6 +51,8 @@ In your `.zshrc` / `.bashrc` file add:
 alias jupyter='docker run --rm -p 8888:8888 -p 4040:4040 -v "${PWD}":/home/jovyan franzdiebold/datascience-ultimate:latest'
 ```
 
+> 💪 For an even better integration into your daily Data Science routine, check out the [dockerize-datascience](https://github.com/FranzDiebold/dockerize-datascience) repo.
+
 ## Build image locally
 
 ```bash

@@ -1,6 +1,7 @@
 # Data Science Ultimate Docker image
 
 [![Docker Hub: franzdiebold/datascience-ultimate](https://img.shields.io/badge/Docker%20Hub-franzdiebold%2Fdatascience--ultimate-2496ed)](https://hub.docker.com/r/franzdiebold/datascience-ultimate)
+[![Docker Pulls](https://img.shields.io/docker/pulls/franzdiebold/datascience-ultimate)](https://hub.docker.com/r/franzdiebold/datascience-ultimate)
 [![GitHub: FranzDiebold/docker-datascience-ultimate](https://img.shields.io/badge/GitHub-FranzDiebold%2Fdocker--datascience--ultimate-0969da)](https://github.com/FranzDiebold/docker-datascience-ultimate)
 [![GitHub](https://img.shields.io/github/license/FranzDiebold/docker-datascience-ultimate)](./LICENSE)
 

@@ -1,5 +1,5 @@
 # Theme
-jupyterlab-darkside-ui==0.2.0
+jupyterlab-darkside-ui==0.2.3
 
 # Packages
 polars==0.13.4

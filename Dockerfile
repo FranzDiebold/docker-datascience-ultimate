@@ -3,11 +3,11 @@ FROM jupyter/all-spark-notebook:latest
 LABEL org.opencontainers.image.authors="franz@diebold.io"
 
 RUN mamba install --quiet --yes \
-    'jupyterlab-git=0.34.2' \
-    'plotly=5.6.0' \
+    'jupyterlab-git=0.36.0' \
+    'plotly=5.7.0' \
     'xgboost' \
-    'python-graphviz=0.19.1' \
-    'black[jupyter]=22.1.0' \
+    'python-graphviz=0.20' \
+    'black[jupyter]=22.3.0' \
     'isort=5.10.1' && \
     mamba clean --all -f -y && \
     fix-permissions "${CONDA_DIR}" && \

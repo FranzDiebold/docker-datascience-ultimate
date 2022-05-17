@@ -26,7 +26,7 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [Seaborn v0.11](https://seaborn.pydata.org/)
 - More packages:
   - [XGBoost v1.6](https://xgboost.ai/)
-  - [Plotly v5.7](https://plotly.com/python/)
+  - [Plotly v5.8](https://plotly.com/python/)
   - [Polars v0.13](https://www.pola.rs/)
   - [Graphviz v0.20](https://github.com/xflr6/graphviz)
   - [Git](https://git-scm.com/) support

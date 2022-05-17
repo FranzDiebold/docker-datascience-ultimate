@@ -2,5 +2,5 @@
 jupyterlab-darkside-ui==0.2.3
 
 # Packages
-polars==0.13.4
-jupyterlab-code-formatter==1.4.10
+polars==0.13.36
+jupyterlab-code-formatter==1.4.11

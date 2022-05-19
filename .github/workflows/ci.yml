@@ -9,6 +9,16 @@ jobs:
   docker:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Docker meta
+        id: meta
+        uses: docker/metadata-action@v4
+        with:
+          images: franzdiebold/datascience-ultimate
+          tags: |
+            type=raw,value={{date 'YYYY-MM-DD'}}
+            type=raw,value=latest
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
       - name: Set up Docker Buildx
@@ -24,4 +34,4 @@ jobs:
         with:
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: franzdiebold/datascience-ultimate:latest
+          tags: ${{ steps.meta.outputs.tags }}

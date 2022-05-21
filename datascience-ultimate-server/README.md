@@ -5,8 +5,6 @@
 [![GitHub: FranzDiebold/docker-datascience-ultimate](https://img.shields.io/badge/GitHub-FranzDiebold%2Fdocker--datascience--ultimate-0969da)](https://github.com/FranzDiebold/docker-datascience-ultimate)
 [![GitHub](https://img.shields.io/github/license/FranzDiebold/docker-datascience-ultimate)](./LICENSE)
 
-> [This docker image] is all you need :wink:
-
 A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image packed with everything you need.
 
 ## What's in?
@@ -52,6 +50,6 @@ alias jupyter='docker run --rm -p 8888:8888 -p 4040:4040 -v "${PWD}":/home/jovya
 ## Build image locally
 
 ```bash
-make build-server-arm
-make build-server-amd
+make build-server-arm  # linux/arm64 architecture
+make build-server-amd  # linux/amd64 architecture
 ```

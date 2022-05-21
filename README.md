@@ -1,23 +1,30 @@
-# Data Science Ultimate Docker image
+# Data Science Ultimate Docker images
 
-[![Docker Hub: franzdiebold/datascience-ultimate](https://img.shields.io/badge/Docker%20Hub-franzdiebold%2Fdatascience--ultimate-2496ed)](https://hub.docker.com/r/franzdiebold/datascience-ultimate)
-[![Docker Pulls](https://img.shields.io/docker/pulls/franzdiebold/datascience-ultimate)](https://hub.docker.com/r/franzdiebold/datascience-ultimate)
-[![GitHub: FranzDiebold/docker-datascience-ultimate](https://img.shields.io/badge/GitHub-FranzDiebold%2Fdocker--datascience--ultimate-0969da)](https://github.com/FranzDiebold/docker-datascience-ultimate)
 [![GitHub](https://img.shields.io/github/license/FranzDiebold/docker-datascience-ultimate)](./LICENSE)
 
-> [This docker image] is all you need :wink:
-
-A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image packed with everything you need.
+Customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) images packed with everything you need.
 
 ![docker-datascience-ultimate Screenshot](images/datascience-ultimate_screenshot.png)
 
 ## Selecting an Image
 
-> 💪 For an even better integration into your daily Data Science routine, check out the [dockerize-datascience](https://github.com/FranzDiebold/dockerize-datascience) repo.
+The main question is: _Do you work in the browser or not?_
+
+### [JupyterLab](./datascience-ultimate/)
+
+[![Docker Hub: franzdiebold/datascience-ultimate](https://img.shields.io/badge/Docker%20Hub-franzdiebold%2Fdatascience--ultimate-2496ed)](https://hub.docker.com/r/franzdiebold/datascience-ultimate)
+
+If you want to run JupyterLab in the _browser_, this is the image to go!
+
+### [Jupyter Server](./datascience-ultimate-server/)
+
+[![Docker Hub: franzdiebold/datascience-ultimate-server](https://img.shields.io/badge/Docker%20Hub-franzdiebold%2Fdatascience--ultimate--server-2496ed)](https://hub.docker.com/r/franzdiebold/datascience-ultimate-server)
+
+If you only want to run a Jupyter Server and use a different software for your notebooks (i.e. [JetBrains DataSpell](https://www.jetbrains.com/de-de/dataspell/)) you should use this image.
 
 ## Build images locally
 
 ```bash
-make build-arm
-make build-amd
+make build-arm  # linux/arm64 architecture
+make build-amd  # linux/amd64 architecture
 ```

@@ -11,51 +11,13 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
 
 ![docker-datascience-ultimate Screenshot](images/datascience-ultimate_screenshot.png)
 
-## What's in?
-
-- Everything from [jupyter/all-spark-notebook](https://hub.docker.com/r/jupyter/all-spark-notebook)
-  - [Python v3.9](https://www.python.org/)
-  - [Scala v2.12](https://www.scala-lang.org/) (via `spylon-kernel`)
-  - [R v4.1](https://www.r-project.org/)
-  - [Spark v3.2](https://spark.apache.org/docs/latest/api/python/)
-  - [JupyterLab v3.3](https://jupyter.org/)
-  - [Pandas v1.4](https://pandas.pydata.org/)
-  - [Numpy v1.21](https://numpy.org/)
-  - [scikit-learn v1.0](https://scikit-learn.org/)
-  - [SciPy v1.7](https://scipy.org/)
-  - [Seaborn v0.11](https://seaborn.pydata.org/)
-- More packages:
-  - [XGBoost v1.6](https://xgboost.ai/)
-  - [Plotly v5.8](https://plotly.com/python/)
-  - [Polars v0.13](https://www.pola.rs/)
-  - [Graphviz v0.20](https://github.com/xflr6/graphviz)
-  - [Git](https://git-scm.com/) support
-- Theme: [JupyterLab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
-- Code formatting: [Jupyterlab Code Formatter](https://jupyterlab-code-formatter.readthedocs.io/) using [Black code formatter](https://black.readthedocs.io/en/stable/)
-
-## How to use?
-
-```bash
-docker run -p 8888:8888 -p 4040:4040 franzdiebold/datascience-ultimate
-```
-
-The following web apps will be available:
-
-- JupyterLab: [http://localhost:8888/lab/](http://localhost:8888/lab/)
-- Spark Web UI: [http://localhost:4040/](http://localhost:4040/)
-
-## Use it in your daily routine :rocket:
-
-In your `.zshrc` / `.bashrc` file add:
-
-```bashrc
-alias jupyter='docker run --rm -p 8888:8888 -p 4040:4040 -v "${PWD}":/home/jovyan franzdiebold/datascience-ultimate:latest'
-```
+## Selecting an Image
 
 > 💪 For an even better integration into your daily Data Science routine, check out the [dockerize-datascience](https://github.com/FranzDiebold/dockerize-datascience) repo.
 
-## Build image locally
+## Build images locally
 
 ```bash
-make build
+make build-arm
+make build-amd
 ```

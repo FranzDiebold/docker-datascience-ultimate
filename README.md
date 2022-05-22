@@ -1,61 +1,30 @@
-# Data Science Ultimate Docker image
+# Data Science Ultimate Docker images
 
-[![Docker Hub: franzdiebold/datascience-ultimate](https://img.shields.io/badge/Docker%20Hub-franzdiebold%2Fdatascience--ultimate-2496ed)](https://hub.docker.com/r/franzdiebold/datascience-ultimate)
-[![Docker Pulls](https://img.shields.io/docker/pulls/franzdiebold/datascience-ultimate)](https://hub.docker.com/r/franzdiebold/datascience-ultimate)
-[![GitHub: FranzDiebold/docker-datascience-ultimate](https://img.shields.io/badge/GitHub-FranzDiebold%2Fdocker--datascience--ultimate-0969da)](https://github.com/FranzDiebold/docker-datascience-ultimate)
 [![GitHub](https://img.shields.io/github/license/FranzDiebold/docker-datascience-ultimate)](./LICENSE)
 
-> [This docker image] is all you need :wink:
-
-A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image packed with everything you need.
+Customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) images packed with everything you need.
 
 ![docker-datascience-ultimate Screenshot](images/datascience-ultimate_screenshot.png)
 
-## What's in?
+## Selecting an Image
 
-- Everything from [jupyter/all-spark-notebook](https://hub.docker.com/r/jupyter/all-spark-notebook)
-  - [Python v3.9](https://www.python.org/)
-  - [Scala v2.12](https://www.scala-lang.org/) (via `spylon-kernel`)
-  - [R v4.1](https://www.r-project.org/)
-  - [Spark v3.2](https://spark.apache.org/docs/latest/api/python/)
-  - [JupyterLab v3.3](https://jupyter.org/)
-  - [Pandas v1.4](https://pandas.pydata.org/)
-  - [Numpy v1.21](https://numpy.org/)
-  - [scikit-learn v1.0](https://scikit-learn.org/)
-  - [SciPy v1.7](https://scipy.org/)
-  - [Seaborn v0.11](https://seaborn.pydata.org/)
-- More packages:
-  - [XGBoost v1.6](https://xgboost.ai/)
-  - [Plotly v5.8](https://plotly.com/python/)
-  - [Polars v0.13](https://www.pola.rs/)
-  - [Graphviz v0.20](https://github.com/xflr6/graphviz)
-  - [Git](https://git-scm.com/) support
-- Theme: [JupyterLab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
-- Code formatting: [Jupyterlab Code Formatter](https://jupyterlab-code-formatter.readthedocs.io/) using [Black code formatter](https://black.readthedocs.io/en/stable/)
+The main question is: _Do you work in the browser or not?_
 
-## How to use?
+### [JupyterLab](./datascience-ultimate/)
+
+[![Docker Hub: franzdiebold/datascience-ultimate](https://img.shields.io/badge/Docker%20Hub-franzdiebold%2Fdatascience--ultimate-2496ed)](https://hub.docker.com/r/franzdiebold/datascience-ultimate)
+
+If you want to run JupyterLab in the _browser_, `franzdiebold/datascience-ultimate` is the image to go!
+
+### [Jupyter Server](./datascience-ultimate-server/)
+
+[![Docker Hub: franzdiebold/datascience-ultimate-server](https://img.shields.io/badge/Docker%20Hub-franzdiebold%2Fdatascience--ultimate--server-2496ed)](https://hub.docker.com/r/franzdiebold/datascience-ultimate-server)
+
+If you only want to run a Jupyter Server and use a different software for your notebooks (i.e. [JetBrains DataSpell](https://www.jetbrains.com/de-de/dataspell/)) you should use the `franzdiebold/datascience-ultimate-server` image.
+
+## Build images locally
 
 ```bash
-docker run -p 8888:8888 -p 4040:4040 franzdiebold/datascience-ultimate
-```
-
-The following web apps will be available:
-
-- JupyterLab: [http://localhost:8888/lab/](http://localhost:8888/lab/)
-- Spark Web UI: [http://localhost:4040/](http://localhost:4040/)
-
-## Use it in your daily routine :rocket:
-
-In your `.zshrc` / `.bashrc` file add:
-
-```bashrc
-alias jupyter='docker run --rm -p 8888:8888 -p 4040:4040 -v "${PWD}":/home/jovyan franzdiebold/datascience-ultimate:latest'
-```
-
-> 💪 For an even better integration into your daily Data Science routine, check out the [dockerize-datascience](https://github.com/FranzDiebold/dockerize-datascience) repo.
-
-## Build image locally
-
-```bash
-make build
+make build-arm  # linux/arm64 architecture
+make build-amd  # linux/amd64 architecture
 ```

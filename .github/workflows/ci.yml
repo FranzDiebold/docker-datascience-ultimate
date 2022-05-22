@@ -11,8 +11,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Docker meta
-        id: meta
+      - name: Docker meta server
+        id: meta_server
+        uses: docker/metadata-action@v4
+        with:
+          images: franzdiebold/datascience-ultimate-server
+          tags: |
+            type=raw,value={{date 'YYYY-MM-DD'}}
+            type=raw,value=latest
+      - name: Docker meta lab
+        id: meta_lab
         uses: docker/metadata-action@v4
         with:
           images: franzdiebold/datascience-ultimate
@@ -28,10 +36,17 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - name: Build and push
-        id: docker_build
+      - name: Build and push server
         uses: docker/build-push-action@v3
         with:
+          context: datascience-ultimate-server/
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ${{ steps.meta.outputs.tags }}
+          tags: ${{ steps.meta_server.outputs.tags }}
+      - name: Build and push lab
+        uses: docker/build-push-action@v3
+        with:
+          context: datascience-ultimate/
+          platforms: linux/amd64,linux/arm64
+          push: true
+          tags: ${{ steps.meta_lab.outputs.tags }}

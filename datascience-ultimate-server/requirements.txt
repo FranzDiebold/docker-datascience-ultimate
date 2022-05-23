@@ -1,3 +1,5 @@
 # Packages
 polars==0.13.36
 xgboost==1.6.1
+plotly==5.8.0
+graphviz==0.20

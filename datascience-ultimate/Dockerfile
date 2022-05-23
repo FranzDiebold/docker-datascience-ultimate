@@ -4,15 +4,9 @@ LABEL org.opencontainers.image.authors="franz@diebold.io"
 
 ENV DOCKER_STACKS_JUPYTER_CMD=lab
 
-RUN mamba install --quiet --yes \
-    'jupyterlab-git=0.37.1' \
-    'black[jupyter]=22.3.0' \
-    'isort=5.10.1' && \
-    mamba clean --all -f -y && \
+COPY --chown=${NB_UID}:${NB_GID} requirements.txt /tmp/
+RUN pip install --quiet --no-cache-dir --requirement /tmp/requirements.txt && \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
-
-COPY overrides.json /opt/conda/share/jupyter/lab/settings/overrides.json
+COPY --chown=${NB_UID}:${NB_GID} overrides.json /opt/conda/share/jupyter/lab/settings/overrides.json

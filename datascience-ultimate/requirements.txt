@@ -3,3 +3,8 @@ jupyterlab-darkside-ui==0.2.3
 
 # Packages
 jupyterlab-code-formatter==1.4.11
+black[jupyter]==22.3.0
+isort==5.10.1
+
+# Utilities
+jupyterlab-git==0.37.1

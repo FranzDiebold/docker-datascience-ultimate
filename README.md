@@ -21,7 +21,7 @@ If you want to run JupyterLab in the _browser_, `franzdiebold/datascience-ultima
 
 [![Docker Hub: franzdiebold/datascience-ultimate-server](https://img.shields.io/badge/Docker%20Hub-franzdiebold%2Fdatascience--ultimate--server-2496ed)](https://hub.docker.com/r/franzdiebold/datascience-ultimate-server)
 
-If you only want to run a Jupyter Server and use a different software for your notebooks (i.e. [JetBrains DataSpell](https://www.jetbrains.com/de-de/dataspell/)) you should use the `franzdiebold/datascience-ultimate-server` image.
+If you only want to run a Jupyter Server and use a different client software for your notebooks (i.e. [JetBrains DataSpell](https://www.jetbrains.com/dataspell/)) you should use the `franzdiebold/datascience-ultimate-server` image.
 
 ## Build images locally
 

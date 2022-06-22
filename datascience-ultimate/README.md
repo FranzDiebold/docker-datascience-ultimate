@@ -7,7 +7,7 @@
 
 A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org/docs/latest/api/python/) [Docker](https://www.docker.com/) image packed with everything you need.
 
-![docker-datascience-ultimate Screenshot](../images/datascience-ultimate_screenshot.png)
+![datascience-ultimate screenshot](../images/datascience-ultimate_screenshot.png)
 
 ## What's in?
 

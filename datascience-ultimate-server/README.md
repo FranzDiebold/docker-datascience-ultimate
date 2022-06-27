@@ -12,11 +12,11 @@ A customized [Jupyter Server](https://jupyter.org/) [Spark](https://spark.apache
 ## What's in?
 
 - Everything from [jupyter/all-spark-notebook](https://hub.docker.com/r/jupyter/all-spark-notebook)
-  - [Python v3.9](https://www.python.org/)
+  - [Python v3.10](https://www.python.org/)
   - [Scala v2.12](https://www.scala-lang.org/) (via `spylon-kernel`)
   - [R v4.1](https://www.r-project.org/)
   - [Spark v3.2](https://spark.apache.org/docs/latest/api/python/)
-  - [JupyterLab v3.3](https://jupyter.org/)
+  - [JupyterLab v3.4](https://jupyter.org/)
   - [Pandas v1.4](https://pandas.pydata.org/)
   - [Numpy v1.21](https://numpy.org/)
   - [scikit-learn v1.0](https://scikit-learn.org/)

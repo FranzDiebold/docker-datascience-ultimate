@@ -3,3 +3,5 @@ polars==0.13.51
 xgboost==1.6.1
 plotly==5.9.0
 graphviz==0.20
+s3fs==2022.5.0
+awsume==4.5.3

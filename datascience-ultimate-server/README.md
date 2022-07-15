@@ -27,7 +27,7 @@ A customized [Jupyter Server](https://jupyter.org/) [Spark](https://spark.apache
   - [Plotly v5.8](https://plotly.com/python/)
   - [Polars v0.13](https://www.pola.rs/)
   - [Graphviz v0.20](https://github.com/xflr6/graphviz)
-  - [AWSume v4.5](https://awsu.me/)
+  - [JAWSume v0.1](https://github.com/FranzDiebold/jawsume)
 
 ## How to use?
 

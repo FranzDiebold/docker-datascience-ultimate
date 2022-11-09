@@ -1,4 +1,11 @@
-FROM jupyter/all-spark-notebook:latest
+# Base image for X86 architecture
+FROM jupyter/all-spark-notebook:x86_64-latest AS base-amd64
+
+# Base image for ARM architecture
+FROM jupyter/all-spark-notebook:aarch64-latest AS base-arm64
+
+# Actual base image to be used
+FROM base-${TARGETARCH}
 
 LABEL org.opencontainers.image.authors="franz@diebold.io"
 

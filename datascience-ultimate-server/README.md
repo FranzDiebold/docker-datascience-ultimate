@@ -25,7 +25,7 @@ A customized [Jupyter Server](https://jupyter.org/) [Spark](https://spark.apache
 - More packages:
   - [XGBoost v1.7](https://xgboost.ai/)
   - [Plotly v5.11](https://plotly.com/python/)
-  - [Polars v0.14](https://www.pola.rs/)
+  - [Polars v0.15](https://www.pola.rs/)
   - [Graphviz v0.20](https://github.com/xflr6/graphviz)
   - [JAWSume v0.1](https://github.com/FranzDiebold/jawsume)
 

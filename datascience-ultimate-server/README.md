@@ -19,8 +19,8 @@ A customized [Jupyter Server](https://jupyter.org/) [Spark](https://spark.apache
   - [JupyterLab v3.5](https://jupyter.org/)
   - [Pandas v1.5](https://pandas.pydata.org/)
   - [Numpy v1.23](https://numpy.org/)
-  - [scikit-learn v1.1](https://scikit-learn.org/)
-  - [SciPy v1.9](https://scipy.org/)
+  - [scikit-learn v1.2](https://scikit-learn.org/)
+  - [SciPy v1.10](https://scipy.org/)
   - [Seaborn v0.12](https://seaborn.pydata.org/)
 - More packages:
   - [XGBoost v1.7](https://xgboost.ai/)

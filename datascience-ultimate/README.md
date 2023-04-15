@@ -15,7 +15,7 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [Python v3.10](https://www.python.org/)
   - [Scala v2.12](https://www.scala-lang.org/) (via `spylon-kernel`)
   - [R v4.2](https://www.r-project.org/)
-  - [Spark v3.3](https://spark.apache.org/docs/latest/api/python/)
+  - [Spark v3.4](https://spark.apache.org/docs/latest/api/python/)
   - [JupyterLab v3.5](https://jupyter.org/)
   - [Pandas v1.5](https://pandas.pydata.org/)
   - [Numpy v1.23](https://numpy.org/)

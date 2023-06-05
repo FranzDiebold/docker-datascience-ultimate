@@ -1,7 +1,7 @@
 # Packages
 polars==0.16.16
-xgboost==1.7.4
-plotly==5.13.1
+xgboost==1.7.5
+plotly==5.14.1
 graphviz==0.20.1
 jawsume==0.1.0
-s3fs==2023.3.0
+s3fs==2023.5.0

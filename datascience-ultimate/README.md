@@ -12,11 +12,11 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
 ## What's in?
 
 - Everything from [jupyter/all-spark-notebook](https://hub.docker.com/r/jupyter/all-spark-notebook)
-  - [Python v3.10](https://www.python.org/)
+  - [Python v3.11](https://www.python.org/)
   - [Scala v2.12](https://www.scala-lang.org/) (via `spylon-kernel`)
   - [R v4.2](https://www.r-project.org/)
   - [Spark v3.4](https://spark.apache.org/docs/latest/api/python/)
-  - [JupyterLab v3.5](https://jupyter.org/)
+  - [JupyterLab v4.0](https://jupyter.org/)
   - [Pandas v1.5](https://pandas.pydata.org/)
   - [Numpy v1.23](https://numpy.org/)
   - [scikit-learn v1.2](https://scikit-learn.org/)
@@ -24,7 +24,7 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [Seaborn v0.12](https://seaborn.pydata.org/)
 - More packages:
   - [XGBoost v1.7](https://xgboost.ai/)
-  - [Plotly v5.13](https://plotly.com/python/)
+  - [Plotly v5.14](https://plotly.com/python/)
   - [Polars v0.16](https://www.pola.rs/)
   - [Graphviz v0.20](https://github.com/xflr6/graphviz)
   - [JAWSume v0.1](https://github.com/FranzDiebold/jawsume)

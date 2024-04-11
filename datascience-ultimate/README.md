@@ -14,8 +14,8 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
 - Everything from [jupyter/all-spark-notebook](https://hub.docker.com/r/jupyter/all-spark-notebook)
   - [Python v3.11](https://www.python.org/)
   - [Scala v2.12](https://www.scala-lang.org/) (via `spylon-kernel`)
-  - [R v4.2](https://www.r-project.org/)
-  - [Spark v3.4](https://spark.apache.org/docs/latest/api/python/)
+  - [R v4.3](https://www.r-project.org/)
+  - [Spark v3.5](https://spark.apache.org/docs/latest/api/python/)
   - [JupyterLab v4.0](https://jupyter.org/)
   - [Pandas v2.0](https://pandas.pydata.org/)
   - [Numpy v1.24](https://numpy.org/)
@@ -23,9 +23,9 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [SciPy v1.10](https://scipy.org/)
   - [Seaborn v0.12](https://seaborn.pydata.org/)
 - More packages:
-  - [XGBoost v1.7](https://xgboost.ai/)
-  - [Plotly v5.15](https://plotly.com/python/)
-  - [Polars v0.18](https://www.pola.rs/)
+  - [XGBoost v2.0](https://xgboost.ai/)
+  - [Plotly v5.20](https://plotly.com/python/)
+  - [Polars v0.20](https://www.pola.rs/)
   - [Graphviz v0.20](https://github.com/xflr6/graphviz)
   - [JAWSume v0.1](https://github.com/FranzDiebold/jawsume)
   - [Git](https://git-scm.com/) support

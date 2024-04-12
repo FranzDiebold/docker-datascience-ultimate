@@ -4,7 +4,7 @@ jupyterlab-darkside-ui
 # Packages
 black[jupyter]==24.3.0
 isort==5.13.2
-jupyterlab-code-formatter==2.2.1
+jupyterlab-code-formatter
 
 # Utilities
 jupyterlab-git

@@ -23,7 +23,7 @@ A customized [Jupyter Server](https://jupyter.org/) [Spark](https://spark.apache
   - [SciPy v1.12](https://scipy.org/)
   - [Seaborn v0.13](https://seaborn.pydata.org/)
 - More packages:
-  - [XGBoost v2.0](https://xgboost.ai/)
+  - [XGBoost v2.1](https://xgboost.ai/)
   - [Plotly v5.22](https://plotly.com/python/)
   - [Polars v0.20](https://www.pola.rs/)
   - [Graphviz v0.20](https://github.com/xflr6/graphviz)

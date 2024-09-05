@@ -16,7 +16,7 @@ A customized [Jupyter Server](https://jupyter.org/) [Spark](https://spark.apache
   - [Scala v2.12](https://www.scala-lang.org/) (via `spylon-kernel`)
   - [R v4.3](https://www.r-project.org/)
   - [Spark v3.5](https://spark.apache.org/docs/latest/api/python/)
-  - [JupyterLab v4.1](https://jupyter.org/)
+  - [JupyterLab v4.2](https://jupyter.org/)
   - [Pandas v2.0](https://pandas.pydata.org/)
   - [Numpy v1.26](https://numpy.org/)
   - [scikit-learn v1.4](https://scikit-learn.org/)
@@ -24,8 +24,8 @@ A customized [Jupyter Server](https://jupyter.org/) [Spark](https://spark.apache
   - [Seaborn v0.13](https://seaborn.pydata.org/)
 - More packages:
   - [XGBoost v2.1](https://xgboost.ai/)
-  - [Plotly v5.22](https://plotly.com/python/)
-  - [Polars v0.20](https://www.pola.rs/)
+  - [Plotly v5.24](https://plotly.com/python/)
+  - [Polars v1.6](https://www.pola.rs/)
   - [Graphviz v0.20](https://github.com/xflr6/graphviz)
   - [JAWSume v0.1](https://github.com/FranzDiebold/jawsume)
 

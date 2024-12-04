@@ -12,9 +12,9 @@ A customized [Jupyter Server](https://jupyter.org/) [Spark](https://spark.apache
 ## What's in?
 
 - Everything from [jupyter/all-spark-notebook](https://quay.io/repository/jupyter/all-spark-notebook)
-  - [Python v3.11](https://www.python.org/)
+  - [Python v3.12](https://www.python.org/)
   - [Scala v2.12](https://www.scala-lang.org/) (via `spylon-kernel`)
-  - [R v4.3](https://www.r-project.org/)
+  - [R v4.4](https://www.r-project.org/)
   - [Spark v3.5](https://spark.apache.org/docs/latest/api/python/)
   - [JupyterLab v4.2](https://jupyter.org/)
   - [Pandas v2.0](https://pandas.pydata.org/)
@@ -25,7 +25,7 @@ A customized [Jupyter Server](https://jupyter.org/) [Spark](https://spark.apache
 - More packages:
   - [XGBoost v2.1](https://xgboost.ai/)
   - [Plotly v5.24](https://plotly.com/python/)
-  - [Polars v1.6](https://www.pola.rs/)
+  - [Polars v1.16](https://www.pola.rs/)
   - [Graphviz v0.20](https://github.com/xflr6/graphviz)
   - [JAWSume v0.1](https://github.com/FranzDiebold/jawsume)
 

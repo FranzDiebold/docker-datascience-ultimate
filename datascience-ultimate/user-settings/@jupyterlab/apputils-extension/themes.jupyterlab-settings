@@ -1,0 +1,10 @@
+{
+    // Theme
+    // @jupyterlab/apputils-extension:themes
+    // Theme manager settings.
+    // *************************************
+
+    // Adaptive Theme
+    // Synchronize visual styling theme with system settings
+    "adaptive-theme": true
+}

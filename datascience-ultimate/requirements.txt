@@ -1,10 +1,12 @@
 # Theme
-jupyterlab-darkside-ui
+
 
 # Packages
 black[jupyter]==24.10.0
 isort==5.13.2
 jupyterlab-code-formatter
+jupyterlab-lsp
+python-lsp-server[all]
 
 # Utilities
 jupyterlab-git

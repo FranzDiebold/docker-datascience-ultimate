@@ -29,8 +29,8 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [Graphviz v0.20](https://github.com/xflr6/graphviz)
   - [JAWSume v0.1](https://github.com/FranzDiebold/jawsume)
   - [Git](https://git-scm.com/) support
-- Theme: [JupyterLab Darkside UI](https://github.com/dunovank/jupyterlab_darkside_ui)
 - Code formatting: [Jupyterlab Code Formatter](https://jupyterlab-code-formatter.readthedocs.io/) using [Black code formatter](https://black.readthedocs.io/en/stable/)
+- Coding assistance with [Jupyter[Lab] Language Server Protocol](https://jupyterlab-lsp.readthedocs.io/en/latest/)
 
 ## How to use?
 

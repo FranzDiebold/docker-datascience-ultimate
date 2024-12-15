@@ -13,7 +13,6 @@ A customized [Jupyter Server](https://jupyter.org/) [Spark](https://spark.apache
 
 - Everything from [jupyter/all-spark-notebook](https://quay.io/repository/jupyter/all-spark-notebook)
   - [Python v3.12](https://www.python.org/)
-  - [Scala v2.12](https://www.scala-lang.org/) (via `spylon-kernel`)
   - [R v4.4](https://www.r-project.org/)
   - [Spark v3.5](https://spark.apache.org/docs/latest/api/python/)
   - [JupyterLab v4.2](https://jupyter.org/)

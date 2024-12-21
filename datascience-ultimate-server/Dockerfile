@@ -31,4 +31,4 @@ RUN pip install --quiet --no-cache-dir --requirement /tmp/requirements.txt && \
     fix-permissions "${CONDA_DIR}" && \
     fix-permissions "/home/${NB_USER}"
 
-COPY --chown="${NB_UID}:${NB_GID}" before-notebook.d/install_requirements.sh /usr/local/bin/before-notebook.d/
+COPY --chown="${NB_UID}:${NB_GID}" before-notebook.d/ /usr/local/bin/before-notebook.d/

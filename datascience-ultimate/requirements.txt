@@ -2,8 +2,8 @@
 
 
 # Packages
-black[jupyter]==24.10.0
-isort==5.13.2
+black[jupyter]==25.1.0
+isort==6.0.1
 jupyterlab-code-formatter
 jupyterlab-lsp
 python-lsp-server[all]

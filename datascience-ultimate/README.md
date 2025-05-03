@@ -22,9 +22,9 @@ A customized [JupyterLab](https://jupyter.org/) [Spark](https://spark.apache.org
   - [SciPy v1.12](https://scipy.org/)
   - [Seaborn v0.13](https://seaborn.pydata.org/)
 - More packages:
-  - [XGBoost v2.1](https://xgboost.ai/)
-  - [Plotly v5.24](https://plotly.com/python/)
-  - [Polars v1.18](https://www.pola.rs/)
+  - [XGBoost v3.0](https://xgboost.ai/)
+  - [Plotly v6.0](https://plotly.com/python/)
+  - [Polars v1.29](https://www.pola.rs/)
   - [Graphviz v0.20](https://github.com/xflr6/graphviz)
   - [JAWSume v0.1](https://github.com/FranzDiebold/jawsume)
   - [Git](https://git-scm.com/) support
